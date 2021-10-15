@@ -1,0 +1,240 @@
+@import '~antd/dist/antd.css';
+body {
+  background-color: white;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.cover,
+#root,
+.app-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#sider-menu .logo {
+  height: 32px;
+  background: red;
+  margin: 16px;
+}
+.pointer:hover {
+  cursor: pointer !important;
+}
+.fab-container > button {
+  width: 80px !important;
+  height: 80px !important;
+}
+.boton_anyadir {
+  margin-bottom: 10px;
+  margin-right: 3px;
+}
+.carpeta {
+  cursor: pointer;
+}
+.bread {
+  margin-left:10px
+}
+.es_folder {
+  /* cursor:pointer; */
+}
+.no_style {
+  color: rgba(0, 0, 0, 0.65);
+}
+.latabla > a {
+  font-size: 14px;
+  color:black!important;
+}
+.latabla:hover > a {
+  color: rgb(0, 112, 224)!important;
+  text-decoration: none!important;
+}
+.acciones {
+  cursor: pointer;
+  width: 30px;
+  display: block;
+  height: 30px;
+}
+.acciones:hover {
+  cursor: pointer;
+  color: rgb(0, 112, 224);
+}
+.miniatura {
+  width: 100%;
+  height: 250px;
+  background-color: #f3f4f5;
+  display:flex;
+  align-items: center;
+  flex-direction:column;
+  border-bottom: 3px solid rgba(28,110,164,0.4);
+  padding: 35px;
+}
+.Breadcrumbs {
+  font-size: 25px;
+}
+.Breadcrumbs > a:hover {
+  text-decoration: none;
+}
+.Breadcrumbs >span > a, .Breadcrumbs > span {
+  color: #637282;
+}
+.lastBread{
+  color:black;
+  text-decoration: none;
+}
+a > .lastBread:hover {
+  cursor: context-menu;
+  text-decoration: none!important;
+}
+.nav_sd, .nav > svg {
+  color: #007af5;
+  fill:#007af5;
+  cursor: pointer;
+}
+.nav_sd {
+  margin-top: 10px;
+}
+.miniatura_vacia {
+  height: 30px;
+  margin:15px
+}
+.miniatura_image {
+  widows: 20px;
+}
+.miniatura_nombre {
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+}
+.miniatura_titulo {
+  font-size: 13px;
+  text-decoration: underline;
+}
+.miniatura_descripcion {
+  font-size: 12px;
+  margin: 4px;
+}
+.miniatura_fecha {
+  font-size: 11px;
+}
+.principal_div {
+  width: 80%;
+  margin: 0 auto;
+}
+.contenedor {
+  background-color: white;
+}
+.ant-table-thead > tr > th {
+  background-color: white;
+}
+.descripcion {
+  display: flex;
+  justify-content: space-between;
+}
+.mostrar_descripcion {
+  color:#007af5;
+  cursor: pointer;
+  font-size: 12px;
+}
+.mostrar_descripcion:hover {
+  text-decoration: underline;
+}
+.descripcionhr {
+  margin-top: 0.01rem;
+}
+.titulo_descripcion {
+  line-height: 16px;
+  color:#637282;
+  font-size: 12px;
+}
+.description_mini {
+  line-height: 16px;
+  color:#637282;
+  font-size: 12px;
+}
+.sidebara {
+  margin-top:100px;
+  width: 300px;
+}
+.acceso {
+  font-size: 12px;
+  color:#637282;
+  line-height: 32px;
+}
+.botones {
+  line-height: 22px;
+  font-size: 14px;
+}
+.file_style {
+  cursor: pointer;
+}
+.contenedor_principal {
+  width: 80%;
+  margin: 0 auto;
+}
+.contenedor_desc_carpeta {
+  margin-bottom: 20px;
+}
+.input_login {
+  width: 70%;
+  margin: 0 auto
+}
+.ant-layout-header {
+  height: 100%;
+  margin: 0px 16px;
+}
+.ant-layout {
+  background: white;
+}
+.me {
+  max-width: 100%;
+}
+.small_mobile {
+  color: #637282;
+  display: none
+}
+.alertCopiado {
+  position: absolute!important;
+  opacity: 0.9; 
+  width: 80%;
+}
+@media (max-width:980px) {
+  .sidebara {
+    margin-top:0px
+  } 
+  .miniatura {
+    display: none;
+  }
+  .remp_pes {
+    display: none
+  }
+}
+
+@media (max-width:700px) {
+  .contenedor_principal {
+    width: 90%;
+    margin-left:0px
+  }
+}
+
+
+@media (max-width:500px) {
+  .remp {
+    display:none;
+  }
+  .sidebara {
+    width: 0;
+  }
+  .small_mobile {
+    display: block;
+  }
+}

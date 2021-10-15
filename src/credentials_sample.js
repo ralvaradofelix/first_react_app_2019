@@ -1,0 +1,9 @@
+export const usuario = 'usuario';
+export const password = 'contraseña';
+export const lng = 'cat'; // esp or cat
+export const nombre_archivo_logo = false // ex: logo.png, the logo needs to be in the src directory
+export const url_backend = 'http://localhost:4000/';
+export const directorio_base = 'Mi uNiDaD';
+export const titulo_base = 'Título base'
+export const description_base = 'Descripción base'
+export const URL_BASE = "mi url" //URL BASE sin / final ex: midominio.com
